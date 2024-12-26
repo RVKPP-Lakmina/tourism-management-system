@@ -1,11 +1,7 @@
-import Grid, { Grid2TypeMap } from "@mui/material/Grid2";
-import { OverridableComponent } from "@mui/material/OverridableComponent";
+import { Grid2Props } from "@mui/material";
+import Grid from "@mui/material/Grid2";
 
-type GridComponentsProps = OverridableComponent<Grid2TypeMap>;
-
-const GridComponents: React.FC<GridComponentsProps> = (
-  props: GridComponentsProps
-) => {
+const GridComponents: React.FC<Grid2Props> = (props: Grid2Props) => {
   return <Grid {...props} />;
 };
 

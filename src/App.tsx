@@ -1,5 +1,5 @@
 import { CssBaseline, Stack } from "@mui/material";
-import Login from "./pages/authentication/login/Login";
+import SignUp from "./pages/authentication/sign-up/SignUp";
 
 const App = () => {
   return (
@@ -10,7 +10,8 @@ const App = () => {
       width={"100vw"}
     >
       <CssBaseline />
-      <Login />
+      {/* <Login /> */}
+      <SignUp />
     </Stack>
   );
 };
