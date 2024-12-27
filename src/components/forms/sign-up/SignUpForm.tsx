@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Grid from "../../ui/GridComponent/Grid";
 import { Typography, TextField, Button, Stack } from "@mui/material";
 
@@ -65,7 +66,7 @@ const SignUpForm = () => {
           </Grid>
           <Grid size={{ xs: 12 }}>
             <Typography variant="body2" textAlign={"center"}>
-              Already have an account? <a href="/">Login</a>
+              Already have an account? <Link to={"/login"}> Login </Link>
             </Typography>
           </Grid>
         </Grid>
